@@ -1,5 +1,7 @@
 <?php
 
+//@https://www.php.net/manual/pt_BR/class.dateinterval.php
+
 $dt = new DateTime();
 
 $periodo = new DateInterval("P15D"); //Da um periodo  15 dias a data

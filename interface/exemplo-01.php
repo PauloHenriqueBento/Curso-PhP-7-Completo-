@@ -28,6 +28,10 @@ class Civic implements Veiculo {
         echo "Veiculo engatou a marcha <strong>" . $marcha . "</strong>";
     }
 
+    /*public function get_capacidadeTanque($litros){
+        echo "O tanque tem: $litros L";
+    }*/
+
 }
 
 $carro = new Civic;
@@ -42,5 +46,7 @@ echo "<br>";
 $carro->trocarMarcha(1);
 echo "<br>";
 $carro->freiar(30);
+echo "<br>";
+//$carro->get_capacidadeTanque(45);
 
 ?>

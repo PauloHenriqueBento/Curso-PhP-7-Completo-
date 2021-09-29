@@ -18,10 +18,27 @@ require_once("config.php");
 //echo json_encode($search);
 
 //Login
-$user = new Usuario();
-$user->login("Ruffy", "Rei dos Piratas");
+//$user = new Usuario();
+//$user->login("Ruffy", "Rei dos Piratas");
+//echo $user;
 
-echo $user;
+/* Insert na tabela do banco de dados
+$al/uno = new Usuario("aluno", "@lun0");
 
+$aluno->insert();
+
+echo $aluno;
+*/
+
+//Altera usuário
+/*
+$usuario = new Usuario();
+
+$usuario->loadById(51);
+
+$usuario->update("professor", "pr0f");
+
+echo $usuario;
+*/
 
 ?>

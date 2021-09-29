@@ -41,4 +41,13 @@ $usuario->update("professor", "pr0f");
 echo $usuario;
 */
 
+//Deleta
+$usuario = new Usuario();
+
+$usuario->loadById(51);
+
+$usuario ->delete();
+
+echo $usuario;
+
 ?>
